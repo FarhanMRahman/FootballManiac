@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.farhanmrahman.footballmaniac.MainActivity">
+
+    <TextView
+        android:id="@+id/my_teams"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#B71C1C"
+        android:text="My Teams"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/past_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F57F17"
+        android:text="Past Results"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:id="@+id/next_features"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#880E4F"
+        android:text="Next Fixtures"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/leaderboards"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:text="Leaderboards"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"/>
+
+</LinearLayout>

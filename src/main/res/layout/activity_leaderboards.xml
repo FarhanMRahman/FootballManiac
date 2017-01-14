@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_leaderboards"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La Liga"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#4A148C"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="#"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#00C853"
+                android:padding="16dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Name"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#FF5252"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pts"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#F9A825"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_1_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_1_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_2_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_2_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_3_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_3_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_4_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_4_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_5_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/la_liga_5_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Premier League"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#536DFE"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="#"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#00C853"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Name"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#FF5252"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pts"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#F9A825"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_1_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_1_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_2_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_2_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_3_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_3_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_4_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_4_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_5_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/epl_5_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bundesliga"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#5D4037"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="#"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#00C853"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Name"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#FF5252"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pts"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="#F9A825"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_1_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_1_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_2_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_2_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_3_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_3_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_4_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_4_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_5_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/bundesliga_5_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:padding="16dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

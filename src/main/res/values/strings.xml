@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Football Maniac</string>
+    <string name="my_teams_string">My Teams</string>
+    <string name="past_results_string">Past Results</string>
+    <string name="next_fixtures_string">Next Fixtures</string>
+    <string name="select_my_teams_string">Select My Teams</string>
+    <string name="my_past_results_string">Past Results of My Teams</string>
+    <string name="my_next_fixtures_string">Next Fixtures of My Teams</string>
+    <string name="leaderboards_string">Leaderboards</string>
+</resources>

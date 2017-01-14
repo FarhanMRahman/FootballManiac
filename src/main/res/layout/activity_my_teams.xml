@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_teams_layout_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.farhanmrahman.footballmaniac.MyTeamsActivity">
+
+    <TextView
+        android:id="@+id/select_my_teams"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#69F0AE"
+        android:text="Select My Teams"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="42sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/my_past_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#CDDC39"
+        android:text="Past Results\nof My Teams"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:id="@+id/my_next_features"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFEB3B"
+        android:text="Next Fixtures\nof My Teams"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:fontFamily="sans-serif-light"/>
+
+</LinearLayout>

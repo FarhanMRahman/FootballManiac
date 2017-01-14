@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.farhanmrahman.footballmaniac">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyTeamsActivity"
+            android:label="@string/my_teams_string"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".PastReslutsActivity"
+            android:label="@string/past_results_string"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".NextFixturesActivity"
+            android:label="@string/next_fixtures_string"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".SelectMyTeams"
+            android:label="@string/select_my_teams_string"
+            android:parentActivityName=".MyTeamsActivity"/>
+        <activity
+            android:name=".MyPastResults"
+            android:label="@string/my_past_results_string"
+            android:parentActivityName=".MyTeamsActivity"/>
+        <activity
+            android:name=".MyNextFixtures"
+            android:label="@string/my_next_fixtures_string"
+            android:parentActivityName=".MyTeamsActivity"/>
+        <activity
+            android:name=".Leaderboards"
+            android:label="@string/leaderboards_string"
+            android:parentActivityName=".MainActivity"/>
+
+        <service
+            android:name=".MusicService"/>
+
+    </application>
+
+</manifest>

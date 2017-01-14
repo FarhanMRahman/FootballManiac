@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_my_teams"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.farhanmrahman.footballmaniac.SelectMyTeams">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:textSize="32sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La Liga"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#00C853"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/teams84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Málaga CF"/>
+
+            <CheckBox
+                android:id="@+id/teams79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="CA Osasuna"/>
+
+            <CheckBox
+                android:id="@+id/teams560"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="RC Deportivo La Coruna"/>
+
+            <CheckBox
+                android:id="@+id/teams278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="SD Eibar"/>
+
+            <CheckBox
+                android:id="@+id/teams81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Barcelona"/>
+
+            <CheckBox
+                android:id="@+id/teams90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Real Betis"/>
+
+            <CheckBox
+                android:id="@+id/teams83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Granada CF"/>
+
+            <CheckBox
+                android:id="@+id/teams94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Villarreal CF"/>
+
+            <CheckBox
+                android:id="@+id/teams559"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Sevilla FC"/>
+
+            <CheckBox
+                android:id="@+id/teams80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="RCD Espanyol"/>
+
+            <CheckBox
+                android:id="@+id/teams96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Sporting Gijón"/>
+
+            <CheckBox
+                android:id="@+id/teams77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Athletic Club"/>
+
+            <CheckBox
+                android:id="@+id/teams92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Real Sociedad de Fútbol"/>
+
+            <CheckBox
+                android:id="@+id/teams86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Real Madrid CF"/>
+
+            <CheckBox
+                android:id="@+id/teams78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Club Atlético de Madrid"/>
+
+            <CheckBox
+                android:id="@+id/teams263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Deportivo Alavés"/>
+
+            <CheckBox
+                android:id="@+id/teams558"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="RC Celta de Vigo"/>
+
+            <CheckBox
+                android:id="@+id/teams745"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="CD Leganes"/>
+
+            <CheckBox
+                android:id="@+id/teams95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Valencia CF"/>
+
+            <CheckBox
+                android:id="@+id/teams275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="UD Las Palmas"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Premier League"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#0288D1"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/teams322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Hull City FC"/>
+
+            <CheckBox
+                android:id="@+id/teams338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Leicester City FC"/>
+
+            <CheckBox
+                android:id="@+id/teams340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Southampton FC"/>
+
+            <CheckBox
+                android:id="@+id/teams346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Watford FC"/>
+
+            <CheckBox
+                android:id="@+id/teams343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Middlesbrough FC"/>
+
+            <CheckBox
+                android:id="@+id/teams70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Stoke City FC"/>
+
+            <CheckBox
+                android:id="@+id/teams62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Everton FC"/>
+
+            <CheckBox
+                android:id="@+id/teams73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Tottenham Hotspur FC"/>
+
+            <CheckBox
+                android:id="@+id/teams354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Crystal Palace FC"/>
+
+            <CheckBox
+                android:id="@+id/teams74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="West Bromwich Albion FC"/>
+
+            <CheckBox
+                android:id="@+id/teams328"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Burnley FC"/>
+
+            <CheckBox
+                android:id="@+id/teams72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Swansea City FC"/>
+
+            <CheckBox
+                android:id="@+id/teams65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Manchester City FC"/>
+
+            <CheckBox
+                android:id="@+id/teams71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Sunderland AFC"/>
+
+            <CheckBox
+                android:id="@+id/teams1044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="AFC Bournemouth"/>
+
+            <CheckBox
+                android:id="@+id/teams66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Manchester United FC"/>
+
+            <CheckBox
+                android:id="@+id/teams57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Arsenal FC"/>
+
+            <CheckBox
+                android:id="@+id/teams64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Liverpool FC"/>
+
+            <CheckBox
+                android:id="@+id/teams61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Chelsea FC"/>
+
+            <CheckBox
+                android:id="@+id/teams563"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="West Ham United FC"/>
+
+        </LinearLayout>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bundesliga"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:background="#D32F2F"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/teams5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Bayern München"/>
+
+            <CheckBox
+                android:id="@+id/teams12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Werder Bremen"/>
+
+            <CheckBox
+                android:id="@+id/teams16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Augsburg"/>
+
+            <CheckBox
+                android:id="@+id/teams11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="VfL Wolfsburg"/>
+
+            <CheckBox
+                android:id="@+id/teams4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Borussia Dortmund"/>
+
+            <CheckBox
+                android:id="@+id/teams15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="1. FSV Mainz 05"/>
+
+            <CheckBox
+                android:id="@+id/teams19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Eintracht Frankfurt"/>
+
+            <CheckBox
+                android:id="@+id/teams6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Schalke 04"/>
+
+            <CheckBox
+                android:id="@+id/teams7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Hamburger SV"/>
+
+            <CheckBox
+                android:id="@+id/teams31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Ingolstadt 04"/>
+
+            <CheckBox
+                android:id="@+id/teams1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="1. FC Köln"/>
+
+            <CheckBox
+                android:id="@+id/teams55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="SV Darmstadt 98"/>
+
+            <CheckBox
+                android:id="@+id/teams18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Bor. Mönchengladbach"/>
+
+            <CheckBox
+                android:id="@+id/teams3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Bayer Leverkusen"/>
+
+            <CheckBox
+                android:id="@+id/teams9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Hertha BSC"/>
+
+            <CheckBox
+                android:id="@+id/teams17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="SC Freiburg"/>
+
+            <CheckBox
+                android:id="@+id/teams2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="TSG 1899 Hoffenheim"/>
+
+            <CheckBox
+                android:id="@+id/teams721"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Red Bull Leipzig"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serie A"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#01579B"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/teams100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="AS Roma"/>
+
+            <CheckBox
+                android:id="@+id/teams109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Juventus Turin"/>
+
+            <CheckBox
+                android:id="@+id/teams98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="AC Milan"/>
+
+            <CheckBox
+                android:id="@+id/teams108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Internazionale Milano"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ligue 1"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#AEEA00"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/teams524"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="Paris Saint-Germain"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primeira Liga"
+            android:textColor="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:background="#FF6D00"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/teams503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="24sp"
+                android:text="FC Porto"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
